@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navHome"
+            android:title="Home"
+            android:enabled="true"
+            android:icon="@drawable/home"/>
+
+        <item
+            android:id="@+id/navEntry"
+            android:title="Entry"
+            android:enabled="true"
+            android:icon="@drawable/entry"
+            />
+
+        <item
+            android:id="@+id/navScan"
+            android:title="Scanner"
+            android:enabled="true"
+            android:icon="@drawable/scanner"/>
+
+        <item
+            android:id="@+id/navVisitorsExit"
+            android:title="Exit"
+            android:enabled="true"
+            android:icon="@drawable/exit"/>
+
+         
+        <item
+            android:id="@+id/navPrivacyPolicy"
+            android:title="Privacy Policy"
+            android:enabled="true"
+            android:icon="@drawable/privacy_policy"/>
+
+        <item
+            android:id="@+id/navLogOut"
+            android:title="Log Out"
+            android:enabled="true"
+            android:icon="@drawable/log_out"/>
+    </group>
+
+
+
+</menu>

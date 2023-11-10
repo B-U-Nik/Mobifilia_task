@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/bottomHome"
+        android:title="Home"
+        android:enabled="true"
+        android:icon="@drawable/home"/>
+
+    <item
+        android:id="@+id/bottomEntry"
+        android:title="Entry"
+        android:enabled="true"
+        android:icon="@drawable/entry"
+        />
+
+    <item
+        android:id="@+id/bottomScan"
+        android:title="Scanner"
+        android:enabled="true"
+        android:icon="@drawable/scanner"/>
+
+    <item
+        android:id="@+id/bottomExit"
+        android:title="Exit"
+        android:enabled="true"
+        android:icon="@drawable/exit"/>
+
+</menu>
